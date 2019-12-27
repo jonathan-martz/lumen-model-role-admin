@@ -14,7 +14,7 @@ class AddRoleAdmin extends Migration
      */
     public function up()
     {
-        if (Schema::exists('user_role')) {
+        if (Schema::hasTable('user_role')) {
             $count = DB::table('user_role')->where('name', '=', 'admin')->count();
             if ($count === 0) {
                 DB::table('user_role')->insert([
