@@ -6,7 +6,7 @@
     "php": "^7.1|^7.2|^7.3|^7.4",
     "ext-json": "*",
     "laravel/lumen-framework": "^5.6|^6.0",
-    "jonathan-martz/lumen-model-base-role": "dev-master"
+    "jonathan-martz/lumen-model-base-role": "^0.1"
   },
   "autoload": {
     "classmap": [
