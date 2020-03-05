@@ -1,4 +1,20 @@
 {
+  "enabled": true,
+  "major": {
+    "enabled": false
+  },
+  "minor": {
+    "automerge": true
+  },
+  "patch": {
+    "automerge": true
+  },
+  "pin": {
+    "automerge": true
+  },
+  "lockFileMaintenance": {
+    "automerge": true
+  },
   "extends": [
     "config:base"
   ]
