@@ -5,7 +5,8 @@
   "require": {
     "php": "^7.3|^7.4",
     "ext-json": "*",
-    "laravel/framework": "^6.3|^7.0",
+    "illuminate/database": "^7.0",
+    "illuminate/support": "^7.0",
     "jonathan-martz/lumen-model-base-role": "dev-nova"
   },
   "autoload": {
